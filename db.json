@@ -1,0 +1,44 @@
+{
+  "inputs": [
+    {
+      "name": "graduacao",
+      "value": 3
+    },
+    {
+      "name": "especializacao",
+      "value": 3
+    },
+    {
+      "name": "mestrado",
+      "value": 1
+    },
+    {
+      "name": "doutorado",
+      "value": 1
+    },
+    {
+      "name": "idioma",
+      "value": 2
+    },
+    {
+      "name": "conhecimento",
+      "value": 4
+    },
+    {
+      "name": "competencia",
+      "value": 4
+    },
+    {
+      "name": "certificacao",
+      "value": 4
+    },
+    {
+      "name": "capacitacao",
+      "value": 3
+    },
+    {
+      "name": "experiencia",
+      "value": 4
+    }
+  ]
+}
