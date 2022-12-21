@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import json
 
 app = FastAPI()
 
@@ -22,4 +23,4 @@ async def getInputs():
     x = ["graduacao","especializacao","mestrado","doutorado","idioma","conhecimento","competencia","certificacao","capacitacao","experiencia"]
     y = [        3.0,             3.0,       1.0,        1.0,     2.0,           4.0,          4.0,           4.0,          3.0,          4.0]
     dip = {"inputs": [{"name": k, "value": v} for k,v in dict(zip(x, y)).items()]}
-    return (dip)
+    return json.dumps(dip)
